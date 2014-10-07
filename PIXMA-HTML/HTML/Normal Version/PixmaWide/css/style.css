@@ -233,7 +233,8 @@ header .main-header {
 }
 
 .logo h1 {
-    margin: 13px 0;
+    /*margin: 13px 0;*/
+    margin: 5px 0;
 }
 
 .navbar-fixed-top {
