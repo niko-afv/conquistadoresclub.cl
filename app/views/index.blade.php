@@ -20,18 +20,19 @@
                            data-endeasing="easeOutQuint">
                            <h3>ConquistadoresClub.cl</h3>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start" 
+                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
                            data-easing="easeOutExpo" 
                            data-start="1400" 
                            data-speed="1050" 
                            data-y="180" 
                            data-x="40">
                            <div class="list-slide">
-                              <i class="fa fa-download slide-icon"></i>
-                              <h5 class="dblue"> Cursos de Liderazgo </h5>
+                              <i style="float: left;" class="fa fa-download slide-icon"></i>
+                              <h5 style="float: left;" class=""> Cursos de Liderazgo </h5>
+                              <div style="clear: both;"> </div>
                            </div>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start" 
+                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
                            data-easing="easeOutExpo" 
                            data-start="1800" 
                            data-speed="1200" 
@@ -39,10 +40,10 @@
                            data-x="40">
                            <div class="list-slide">
                               <i class="fa fa-search slide-icon"></i>
-                              <h5 class="dblue"> Lo que buscabas para tu club o tu J.A </h5>
+                              <h5 class=""> Lo que buscabas para tu club, J.A, etc. </h5>
                            </div>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start" 
+                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
                            data-easing="easeOutExpo" 
                            data-start="2200" 
                            data-speed="1350" 
@@ -50,7 +51,7 @@
                            data-x="40">
                            <div class="list-slide">
                               <i class="fa fa-check-square slide-icon"></i>
-                              <h5 class="dblue"> Manuales Oficiales de la DSA </h5>
+                              <h5 class=""> Manuales Oficiales de la DSA </h5>
                            </div>
                         </div>
                         <div class="caption lfb caption_button_1 fadeout tp-caption start"
@@ -77,7 +78,7 @@
                      <!-- THE RESPONSIVE SLIDE -->
                      <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
                         <img src="img/logo conquistadoresclub.cl.png" data-fullwidthcentering="on" alt="">
-                        <div class="caption large_text sft"
+                        <div class="caption large_text sft modern_big_bluebg"
                            data-x="660"
                            data-y="54"
                            data-speed="300"
@@ -185,11 +186,11 @@
                   <div class="row">
                      <div class="slogan-content">
                         <div class="col-lg-9 col-md-9">
-                           <h2 class="slogan-title">We design and develop the best website’s for customers!</h2>
+                           <h2 class="slogan-title">Tenemos para ti, el manual de especialidades oficial de la DSA, en formato virtual!</h2>
                         </div>
                         <div class="col-lg-3 col-md-3">
                            <div class="get-started">
-                              <button class="btn btn-special btn-color pull-right">Get Started Now</button>
+                              <button class="btn btn-special btn-color pull-right">Conócelo!</button>
                            </div>
                         </div>
                         <div class="clearfix"></div>
@@ -206,14 +207,14 @@
                         <div class="content-box big ch-item bottom-pad-small">
                            <div class="ch-info-wrap">
                               <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="fa fa-arrows-alt"></i></div>
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-check-square"></i></div>
                                  <div class="ch-info-back">
-                                    <i class="fa fa-arrows-alt"></i>
+                                    <i class="fa fa-check-square"></i>
                                  </div>
                               </div>
                            </div>
                            <div class="content-box-info">
-                              <h3>Responsive Layout</h3>
+                              <h3>Especialidades Desarrolladas</h3>
                               <p>
                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                               </p>
@@ -225,14 +226,14 @@
                         <div class="content-box big ch-item bottom-pad-small">
                            <div class="ch-info-wrap">
                               <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="fa fa-eye"></i></div>
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-edit"></i></div>
                                  <div class="ch-info-back">
-                                    <i class="fa fa-eye"></i>
+                                    <i class="fa fa-edit"></i>
                                  </div>
                               </div>
                            </div>
                            <div class="content-box-info">
-                              <h3>Retina Ready</h3>
+                              <h3>Material Para Tus Actividades</h3>
                               <p>
                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                               </p>
@@ -244,14 +245,14 @@
                         <div class="content-box big ch-item">
                            <div class="ch-info-wrap">
                               <div class="ch-info">
-                                 <div class="ch-info-front ch-img-1"><i class="fa fa-edit"></i></div>
+                                 <div class="ch-info-front ch-img-1"><i class="fa fa-users"></i></div>
                                  <div class="ch-info-back">
-                                    <i class="fa fa-edit"></i>
+                                    <i class="fa fa-users"></i>
                                  </div>
                               </div>
                            </div>
                            <div class="content-box-info">
-                              <h3>Rich Elements</h3>
+                              <h3>Cursos De Liderazgo</h3>
                               <p>
                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                               </p>

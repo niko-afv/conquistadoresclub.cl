@@ -5,7 +5,7 @@
 <html> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Pixma Responsive HTML5/CSS3 Template | FIFO THEMES</title>
+        <title>ConquistadoresClub.CL</title>
         <meta name="description" content="Pixma Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
         <meta name="author" content="FIFOTHEMES.COM">
         <!-- Mobile Metas -->
@@ -28,6 +28,10 @@
         <link rel="stylesheet" href="css/colors/blue.css" class="colors">
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/theme-responsive.css">
+        
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="css/custom.css">
+        
 
         <!-- Favicons -->
         <link rel="shortcut icon" href="img/ico/favicon.ico">

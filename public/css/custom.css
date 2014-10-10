@@ -1,0 +1,9 @@
+.list-slide i, .list-slide h5{
+    float: left;
+}
+
+.caption{
+    padding: 5px 8px 2px 5px !important;
+    
+}
+
