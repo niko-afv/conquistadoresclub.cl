@@ -62,9 +62,9 @@
                            data-start="2700"
                            data-hoffset="-70"
                            data-easing="easeOutExpo">
-                           <a class="btn-special hidden-xs btn-grey" href="#">Learn More</a>
+                           <a class="btn-special hidden-xs btn-grey" href="#">Saber Más!</a>
                         </div>
-                        <div class="caption lfb caption_button_2 fadeout tp-caption start"
+                        <!--<div class="caption lfb caption_button_2 fadeout tp-caption start"
                            data-x="210"
                            data-y="330"
                            data-speed="800"
@@ -73,7 +73,7 @@
                            data-hoffset="70"
                            data-easing="easeOutExpo">
                            <a class="btn-special hidden-xs btn-color" href="#">Buy Now</a>
-                        </div>
+                        </div>-->
                      </li>
                      <!-- THE RESPONSIVE SLIDE -->
                      <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
@@ -83,19 +83,7 @@
                            data-y="54"
                            data-speed="300"
                            data-start="800"
-                           data-easing="easeOutExpo"  >TOUCH ENABLED</div>
-                        <div class="caption medium_text sfl"
-                           data-x="689"
-                           data-y="92"
-                           data-speed="300"
-                           data-start="1100"
-                           data-easing="easeOutExpo"  >AND</div>
-                        <div class="caption large_text sfr"
-                           data-x="738"
-                           data-y="88"
-                           data-speed="300"
-                           data-start="1100"
-                           data-easing="easeOutExpo"  ><span class="dblue">RESPONSIVE</span></div>
+                           data-easing="easeOutExpo"  >Nuevo Sitio Web</div>
                         <div class="caption list_slide lfb tp-caption start" 
                            data-easing="easeOutExpo" 
                            data-start="1400" 
@@ -216,9 +204,11 @@
                            <div class="content-box-info">
                               <h3>Especialidades Desarrolladas</h3>
                               <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                 Si eres Conquistador encuentra la especialidad que deseas realizar y descarga el desarrollo de la misma,
+                                 estudia el documento y podrás dar la prueba a tu Guía Mayor. Iremos incrementando 
+                                 nuestro repertorio de Especialidades desarrolladas.
                               </p>
-                              <a href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                              <a href="#">Leer más <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
                            </div>
                         </div>
                      </div>
@@ -235,9 +225,11 @@
                            <div class="content-box-info">
                               <h3>Material Para Tus Actividades</h3>
                               <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                 ¿Eres Lider J.A o de Conquistadores y necesitas una meditación, juegos, concursos, etc?. 
+                                 Aquí podrás encontrar todo el material que necesites para realizar tus actividades. Ve la sección
+                                 "Recursos" y descarga todo el material que quieras, es Gratis!.
                               </p>
-                              <a href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                              <a href="#">Leer más <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
                            </div>
                         </div>
                      </div>
@@ -254,9 +246,11 @@
                            <div class="content-box-info">
                               <h3>Cursos De Liderazgo</h3>
                               <p>
-                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                 Sabemos que estar a cargo de una unidad, un club o un grupo de jovenes no es tarea facil, es por ese motivo que 
+                                 nos encargaremos de tener cursos de liderazgo y material relacionado para ayudarte a ser ese agente positivo
+                                 que movilice tu iglesia.
                               </p>
-                              <a href="#">Read More <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
+                              <a href="#">Leer más <i class="fa fa-angle-right"></i><i class="fa fa-angle-right"></i></a>
                            </div>
                         </div>
                      </div>

@@ -47,7 +47,7 @@
             <div class="mobile navbar-header">
                 <a class="navbar-toggle" data-toggle="collapse" href=".navbar-collapse">
                     <i class="fa fa-bars fa-2x"></i>
-                </a> 
+                </a>
             </div>
             <!-- Mobile Menu End -->
             <!-- Menu Start -->
@@ -57,19 +57,25 @@
                         <a id="current" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Features </a>
+                        <a href="#" class="sf-with-ul">Nosotros </a>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Pages</a>
+                        <a href="#" class="sf-with-ul">Blog / Noticias</a>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Portfolio</a>
+                        <a href="#" class="sf-with-ul">Recursos
+                            <span class="sf-sub-indicator">
+                                <i class="fa fa-angle-down "></i>
+                           </span>
+                        </a>
+                        <ul>
+                            <li><a href="#" class="sf-with-ul">Materiales Varios</a></li>
+                            <li><a href="#" class="sf-with-ul">Cursos de Liderazgo</a></li>
+                            <li><a href="#" class="sf-with-ul">Especialidades Desarrolladas</a></li>
+                        </ul>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
+                        <a href="#">Contacto</a>
                     </li>
                 </ul>
             </nav>
