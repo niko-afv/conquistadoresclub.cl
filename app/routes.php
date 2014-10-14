@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('index');
 });
+
+Route::get('/recursos', function()
+{
+	return View::make('portfolio-two');
+});
