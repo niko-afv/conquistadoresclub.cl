@@ -16,6 +16,11 @@ Route::get('/', function()
 	return View::make('index');
 });
 
+Route::get('/formulario', function()
+{
+	return View::make('formulario');
+});
+
 Route::get('/recursos', function()
 {
 	return View::make('portfolio-two');
