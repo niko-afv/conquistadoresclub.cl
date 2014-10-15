@@ -20,3 +20,8 @@ Route::get('/recursos', function()
 {
 	return View::make('portfolio-two');
 });
+
+Route::get('/especialidades_desarrolladas', function()
+{
+	return View::make('portfolio-four');
+});

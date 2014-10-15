@@ -20,7 +20,7 @@
                            data-endeasing="easeOutQuint">
                            <h3>ConquistadoresClub.cl</h3>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
+                        <div class="caption list_slide lfb tp-caption start" 
                            data-easing="easeOutExpo" 
                            data-start="1400" 
                            data-speed="1050" 
@@ -32,7 +32,7 @@
                               <div style="clear: both;"> </div>
                            </div>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
+                        <div class="caption list_slide lfb tp-caption start" 
                            data-easing="easeOutExpo" 
                            data-start="1800" 
                            data-speed="1200" 
@@ -43,7 +43,7 @@
                               <h5 class=""> Lo que buscabas para tu club, J.A, etc. </h5>
                            </div>
                         </div>
-                        <div class="caption list_slide lfb tp-caption start modern_big_bluebg" 
+                        <div class="caption list_slide lfb tp-caption start" 
                            data-easing="easeOutExpo" 
                            data-start="2200" 
                            data-speed="1350" 

@@ -29,8 +29,8 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/theme-responsive.css">
         
-        <!-- CUSTOM CSS -->
-        <link rel="stylesheet" href="css/custom.css">
+        <!-- CUSTOM CSS --
+        <link rel="stylesheet" href="css/custom.css">-->
         
 
         <!-- Favicons -->

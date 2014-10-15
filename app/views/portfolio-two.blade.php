@@ -33,7 +33,7 @@
                             <div class="portfolio-item">
                                <a href="img/portfolio/portfolio-1.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
                                <span class="portfolio-item-hover"></span>
-                               <span class="fullscreen"><i class="fa fa-eye"></i></span><img src="img/portfolio/portfolio-1.jpg" alt=" "/>
+                               <span class="fullscreen"><i class="fa fa-eye"></i></span><img src="img/Especialidades_portada.png" alt=" "/>
                                </a>
                                <div class="portfolio-item-title">
                                   <a href="single-project.html">Materiales Varios</a>
@@ -48,7 +48,7 @@
                             <div class="portfolio-item">
                                <a href="img/portfolio/portfolio-2.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
                                <span class="portfolio-item-hover"></span>
-                               <span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-2.jpg" alt=" "/>
+                               <span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/Especialidades_portada.png" alt=" "/>
                                </a>
                                <div class="portfolio-item-title">
                                   <a href="single-project.html">Cursos de Liderazgo</a>
@@ -63,7 +63,7 @@
                             <div class="portfolio-item">
                                <a href="img/portfolio/portfolio-3.jpg" class="portfolio-item-link" data-rel="prettyPhoto" >
                                <span class="portfolio-item-hover"></span>
-                               <span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/portfolio/portfolio-3.jpg" alt=" "/>
+                               <span class="fullscreen"><i class="fa fa-search"></i></span><img src="img/Especialidades_portada.png" alt=" "/>
                                </a>
                                <div class="portfolio-item-title">
                                   <a href="single-project.html">Especialidades Desarrolladas</a>
