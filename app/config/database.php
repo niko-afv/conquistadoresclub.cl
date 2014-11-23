@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'host'      => 'mysql.conquistadoresclub.nicolasfredes.cl',
+			'database'  => 'conquistadoresclub',
+			'username'  => 'conquistadoresclub',
+			'password'  => 'c0nqu1st4d0r3sclub',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

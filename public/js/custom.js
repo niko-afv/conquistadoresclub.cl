@@ -153,11 +153,74 @@ $('ul#flickrfeed').jflickrfeed({
     });
 
 
- 
+
+/*----------------------------------------------------*/
+/*	Formulario especialidades
+/*----------------------------------------------------*/
+
+function saveEspecialidad(){
+    var data            =   {
+        "nombre"      :   $("#nombre").val(),
+        "categoria"   :   $("#categoria").val(),
+        "institucion" :   $("#institucion").val(), 
+        "codigo"      :   $("#codigo").val(),
+        "nivel"       :   $("#nivel").val(),
+        "año"         :   $("#año").val(),
+    };
+    console.log(data);
+    
+    $.post('/guardar_especialidad',data, function(response){
+        console.log(response);
+    })
+    
+    /*$("#especialidadForm input").each(function(){
+        console.log($(this).val());
+    });*/
+    
+}
+ $("#saveEspecialidad").click(saveEspecialidad);
 
 });
 
+/*----------------------------------------------------*/
+/*	Formulario requisitos
+/*----------------------------------------------------*/
+$(".own_hidden").hide(1);
+function getRequisitos(especialidad){
+    $.getJSON('get_requisitos',{'especialidad':especialidad},function(response){
+        console.log(response);
+        $("#count_requisitos").html(response.respuesta);
+        $("#text").fadeIn("slow");
+    });
+}
+$("#especialidad").on('change',function(){
+    $("#text").fadeOut("slow");
+    getRequisitos($(this).val());
+});
 
+function saveRequisito(){
+    $("#success").fadeOut("slow");
+    
+    var data            =   {
+        'especialidad'  :   $("#especialidad").val(),
+        'descripcion'   :   $("#descripcion").val(),
+        'numero'        :   $("#numero").val()
+    }
+    console.log(data);
+    $.post('/guardar_requisito',data, function(response){
+        console.log(response);
+        if(response.result){
+            $("#req_count").html(response.requisitos);
+            $("#numero").val("");
+            $("#especialidad").val(0);
+            $("#descripcion").val("");
+            $("#text").hide(1);
+            $("#success").fadeIn("slow");
+        }
+    })
+}
+
+$("#saveRequisito").click(saveRequisito);
 
 /*----------------------------------------------------*/
 /*	Nivo Slider
@@ -522,7 +585,7 @@ jQuery(document).ready(function () {
 /*	Twitter Section
 /*----------------------------------------------------*/
 
-	jQuery('#tweets').tweetMachine('', {
+	/*jQuery('#tweets').tweetMachine('', {
 		backendScript:  'http://demo.fifothemes.com/pixma/ajax/getFromTwitter.php',
 		endpoint: 'statuses/user_timeline',
 		user_name: 'FIFOThemes',
@@ -530,7 +593,7 @@ jQuery(document).ready(function () {
 		exclude_replies: false,
 		limit: 1,
 		autoRefresh: false
-	});
+	});*/
 
 
 

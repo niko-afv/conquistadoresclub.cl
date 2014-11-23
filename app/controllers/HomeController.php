@@ -17,7 +17,9 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('hello');
+		return View::make('index',array(
+                    'tipos_recursos'    =>  $this->tipos_recursos
+                ));
 	}
 
 }

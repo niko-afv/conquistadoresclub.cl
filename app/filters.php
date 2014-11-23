@@ -11,15 +11,19 @@
 |
 */
 
-App::before(function($request)
+App::before(function($request, $response)
 {
-	//
+    //
 });
 
 
 App::after(function($request, $response)
 {
-	//
+
+    $response->headers->set('Access-Control-Allow-Origin', '*');
+    $response->headers->set('Access-Control-Allow-Methods', 'POST, GET, PUT, DELETE, OPTIONS');
+    $response->headers->set('Access-Control-Allow-Headers', 'X-Requested-With, Origin, X-Csrftoken, Content-Type, Accept, Api_key, Token, Database');
+
 });
 
 /*

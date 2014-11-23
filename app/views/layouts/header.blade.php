@@ -37,8 +37,8 @@
             <!-- Logo Start -->
             <div class="logo pull-left">
                 <h1>
-                    <a href="index.html">
-                        <img src="img/logo conquistadoresclub.png" alt="pixma" width="200">
+                    <a href="/">
+                        <img src="/img/logo conquistadoresclub.png" alt="pixma" width="200">
                     </a>
                 </h1>
             </div>
@@ -54,28 +54,36 @@
             <nav class="collapse navbar-collapse menu">
                 <ul class="nav navbar-nav sf-menu">
                     <li>
-                        <a id="current" href="index.html">Home</a>
+                        <a id="current" href="/">Home</a>
                     </li>
                     <li>
                         <a href="#" class="sf-with-ul">Nosotros </a>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Blog / Noticias</a>
+                        <a href="/blog" class="sf-with-ul">Blog / Noticias</a>
                     </li>
                     <li>
-                        <a href="#" class="sf-with-ul">Recursos
+                        <a href="/recursos" class="sf-with-ul">Recursos
                             <span class="sf-sub-indicator">
                                 <i class="fa fa-angle-down "></i>
                            </span>
                         </a>
                         <ul>
-                            <li><a href="#" class="sf-with-ul">Materiales Varios</a></li>
+                            <?php foreach($tipos_recursos as $item => $val){?>
+                            <li><a href="/recursos/<?php echo $val['ID'];?>" class="sf-with-ul"><?php echo $val['NOMBRE'];?></a></li>
+                            
+                            <?php }?>
+                            <!--<li><a href="#" class="sf-with-ul">Materiales Varios</a></li>
                             <li><a href="#" class="sf-with-ul">Cursos de Liderazgo</a></li>
-                            <li><a href="#" class="sf-with-ul">Especialidades Desarrolladas</a></li>
+                            <li><a href="/especialidades_desarrolladas" class="sf-with-ul">Especialidades Desarrolladas</a></li>-->
                         </ul>
                     </li>
                     <li>
                         <a href="#">Contacto</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/dashboard" class="sf-with-ul" target="_blank">Admin</a>
                     </li>
                 </ul>
             </nav>
